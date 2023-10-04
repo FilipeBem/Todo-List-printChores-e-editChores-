@@ -136,7 +136,7 @@ public class ChoreService {
     }
 }
 
-    public void editChore(int index, String newDescription, String newDeadline) {
+    public void editChore(int service.getChores.get(0), String newDescription, String newDeadline) {
     Chore chore = chores.get(index);
     chore.setDescription(newDescription);
     chore.setDeadline(newDeadline);
