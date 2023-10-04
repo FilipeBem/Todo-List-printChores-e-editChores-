@@ -12,12 +12,12 @@ import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-TodoList todoList = new TodoList();
+
+public class ChoreServiceTest {
+    TodoList todoList = new TodoList();
     // Adicionar tarefas à lista
     todoList.displayAllChores();
     todoList.editChore(0, "Nova descrição", "Nova data limite");
-public class ChoreServiceTest {
-    
     @Test
     @DisplayName("#addChore > When the description is invalid > Throw an exception")
     void addChoreWhenTheDescriptionIsInvalidThrowAnException() {
